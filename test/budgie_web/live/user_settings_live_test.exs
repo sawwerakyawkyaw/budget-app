@@ -15,7 +15,6 @@ defmodule BudgieWeb.UserSettingsLiveTest do
       assert html =~ "Change Email"
       assert html =~ "Change Name"
       assert html =~ "Change Password"
-
     end
 
     test "redirects if user is not logged in", %{conn: conn} do
